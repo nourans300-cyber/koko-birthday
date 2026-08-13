@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>عيد ميلاد كوكو ❤️</title>
+<style>
+body{margin:0;font-family:Tahoma,Arial;background:linear-gradient(135deg,#fff1f7,#f3e8ff);color:#604354}
+.page{min-height:100vh;display:none;align-items:center;justify-content:center;padding:24px;box-sizing:border-box}
+.page.active{display:flex}.card{max-width:650px;width:100%;background:#ffffffdd;border-radius:28px;padding:28px;text-align:center;box-shadow:0 12px 35px #8b527522}
+h1,h2{color:#914d70}p{font-size:19px;line-height:2}.memory,.q{background:#fff6fa;border:1px solid #f0d4e1;border-radius:18px;padding:14px;margin:12px 0;text-align:right}
+button{border:0;border-radius:30px;padding:13px 24px;background:#d477a0;color:white;font-size:17px;margin:8px;cursor:pointer}
+input{padding:13px;border:2px solid #edc9d9;border-radius:30px;text-align:center;font-size:18px;width:230px}.err{color:#b44b68;height:28px}
+</style>
+</head><body>
+<section class="page active" id="p1"><div class="card">
+<h1>انهارده عيد ميلاد نور عيني 🥹♥️</h1>
+<p>وكان لازم أقولك<br><b>كل سنة وانت طيب</b> 🎂♥️<br>بس بطريقتي أنا…<br>بطريقة <b>كرييتف شوية😉♥️</b></p>
+<p>يلا بسرعةهه<br><b>اكتب الباسوورد 👀♥️</b></p><button onclick="go(2)">يلااا ♥️</button>
+</div></section>
+
+<section class="page" id="p2"><div class="card">
+<h2>🔐 الباسوورد؟</h2><p><b>هديك تلميح صغنون 🫣♥️<br>أول يوم اتكلمنا فيه يا كوكو🥹♥️</b></p>
+<input id="pw" placeholder="اكتب التاريخ"><div class="err" id="er"></div><button onclick="check()">دخول ♥️</button>
+</div></section>
+
+<section class="page" id="p3"><div class="card">
+<h2>🥹♥️ ومن هنا بدأت حكايتنا…</h2>
+<p><b>2 / 9 / 2026</b><br>اليوم ده من الأيام اللي عمري ما هنساها في حياتي 🥹♥️</p>
+<p>أول مرة اتكلمنا سوا… وأول مرة حسيت إن حياتي بدأت من جديد، حياة أجمل بكتير من حياتي القديمة. 🫂♥️</p>
+<p>فاكرة كل تفصيلة في شاتنا سوااا، كل كلمة، كل إحساس، وكل لحظة حصلت في اليوم ده 🥹</p>
+<p>وفاكرة قد إيه كنت مبسوطة لما عرفت إنك <b>سعودتي</b> 🥹♥️ وقد إيه مكنتش عارفة أنام من الفرحة يا كوكو 😂🥹</p>
+<p>يمكن اليوم ده كان مجرد بداية بالنسبالك… بس بالنسبالي كان <b>بداية أجمل حكاية</b> ♥️</p>
+<button onclick="go(4)">نكمل؟ 🥹♥️</button>
+</div></section>
+
+<section class="page" id="p4"><div class="card">
+<h2>💌 حاجات بحبها فيك…</h2><p>مش هعرف أقولك كل حاجة بحبها فيك، عشان بصراحة هنقعد لحد عيد ميلادك الجاي 😂🥹♥️</p>
+<div class="memory"><b>♡ ضحكتك</b><br>بحب قد إيه ممكن ضحكتك تغيّر مود يوم كامل عندي 🥹♥️</div>
+<div class="memory"><b>♡ طريقتك معايا</b><br>في تفاصيل صغيرة منك يمكن إنت مش واخد بالك منها، بس أنا باخد بالي منها كلها 🫂</div>
+<div class="memory"><b>♡ وجودك</b><br>يمكن مش محتاج تعمل حاجة أصلًا… مجرد إنك موجود بيخليني مبسوطة ♥️</div>
+<div class="memory"><b>♡ و"كوكو" بتاعي 🫣♥️</b><br>دي لوحدها حكاية تانية بقى 😂🥹</div>
+<div class="memory"><b>♡ وأكتر حاجة؟</b><br>إنك بقيت جزء جميل جدًا من أيامي، ومش عايزة اليوم يعدّي من غير ما يكون ليك فيه حاجة ♥️</div>
+<button onclick="go(5)">يلا نشوف ذاكرتك 👀</button>
+</div></section>
+
+<section class="page" id="p5"><div class="card">
+<h2>👀 فاكر ولا لأ يا كوكو؟ 😂♥️</h2><p>دلوقتي بقى هنشوف ذاكرتك حلوة قد إيه 🫣😂<br><b>ممنوع الغش! 🚫👀</b></p>
+<div class="q"><b>فاكر يا كوكو أول مرة اتقابلنا فيهاا خالص؟ 🥹♥️<br>وكنت جايبلي تشوكلت كتييير 🍫🥹♥️</b></div>
+<div class="q"><b>فاكر يا كوكو أول خناقة بينا؟ 😞<br>ولما بعدنا عن بعض عشر أيام كاااملة؟ 🥹</b></div>
+<div class="q"><b>فاكر يا سعودتي أول ديت بيناا؟ 🥹♥️<br>وقد إيه كنت مبسوطة وإحنا ماشيين ماسكين إيد بعض؟ 🫂♥️<br>وقد إيه أنا كنت قد علبة الكنز؟ 😂😂</b></div>
+<div class="q"><b>هسألك بقى سؤال يا كوكوووو 🫣♥️<br>إيه هو المكان اللي بحب أقعد فيه لما نكون متخانقين؟ 👀😂</b></div>
+<button onclick="go(6)">خلصنا الأسئلة 🥹</button>
+</div></section>
+
+<section class="page" id="p6"><div class="card">
+<h2>🎀 خلصنا الأسئلة يا كوكو 😂♥️</h2>
+<p>لو جاوبت صح… فأنت كده أثبتلي إنك فاكر تفاصيلنا أكتر مما كنت متوقعة 🥹🫣</p>
+<p>ولو معرفتش تجاوب على حاجة… <b>مش هقولك الإجابة 😂😂♥️</b></p>
+<p>كل سؤال من دول وراه ذكرى بحبها، وكل ذكرى فيهم ليها مكان خاص عندي 🥹♥️</p>
+<p><b>ودلوقتي بقى… عندي كلام كتير نفسي أقولهولك 💌</b></p>
+<button onclick="go(7)">الرسالة 💌</button>
+</div></section>
+
+<section class="page" id="p7"><div class="card">
+<h2>💌 كل سنة وإنت نور عيني يا كوكو</h2>
+<p><b>أولًا كل سنة وانت طيب يا نور عيني</b> 🥹♥️<br>كل سنة وانت معايا وكل سنة واحنا مع بعض وكل سنة وانت من نجاح لنجاح يروحي كل سنة وانت اغلي ما في حياتي.</p>
+<p>عاوزه اقولك اني <b>بحبك اوي اوي اوي اوي اوي</b> كلمة بحبك دي كلمه صغيره اوي والله علي ال بحسه من ناحيتك لإنك حبيبي وبابايا وجوزي وصحبي وكتكوتيي 🥹♥️</p>
+<p>نفسي نفضل دايما سوا ومنبعدش عن بعض ابداا ينور عيني لحد ما نبقي في بيت واحد سوا يا ابو آدم😉♥️</p>
+<p>عاوزه اقولك ان وجودك فارق اوي معايا لاني من غيرك هبقي عامله زي العيله الصغيره ال مش لاقيه باباها🥹♥️</p>
+<p>إنت الشخص اللي وجوده بيطمنّي وبيفرّحني، ونفسي أشوفك دايمًا بتنجح وتحقق كل حاجة نفسك فيها. 🫂♥️</p>
+<p><b>كل سنة وانت حبيبي، وكل سنة وانت نور عيني، وكل سنة وانت أجمل جزء في حكايتي. 🥹♥️🎂</b></p>
+<button onclick="go(8)">كملي للآخر 🥹</button>
+</div></section>
+
+<section class="page" id="p8"><div class="card">
+<h2>🥹♥️ وآخر حاجة هحب إنك تعرفها…</h2>
+<p style="font-size:24px"><b>لو رجع بيا الزمن لأول يوم اتكلمنا فيه…<br>هختارك تاني من غير تفكير. 🥹♥️</b></p>
+<p>ويمكن أجمل حاجة حصلتلي إن يوم عادي جدًا بدأ منه أجمل جزء في حكايتي. 🫂♥️</p>
+<p><b>كل سنة وانت نور عيني يا كوكو 🎂♥️</b></p>
+<p>بحبك أكتر مما الكلام يقدر يوصف. 🥹♥️</p>
+</div></section>
+
+<script>
+function go(n){document.querySelectorAll('.page').forEach(x=>x.classList.remove('active'));document.getElementById('p'+n).classList.add('active');scrollTo(0,0)}
+function check(){let x=document.getElementById('pw').value.replace(/\s/g,'');if(x==='2/9/2026'||x==='2-9-2026'||x==='02092026'||x==='292026'){document.getElementById('er').textContent='';go(3)}else document.getElementById('er').textContent='فكّر في أول يوم اتكلمنا فيه يا كوكو 🫣♥️'}
+</script>
+</body></html>
